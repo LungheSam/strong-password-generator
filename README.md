@@ -1,6 +1,5 @@
 
 
-```markdown
 # Strong Password Generator
 
 ## Overview
@@ -68,8 +67,8 @@ The email and SMS features are integrated using **EmailJS** and **Twilio API**. 
   │   └── favicon.ico
   ├── /src
   │   ├── /components
-  │   │   ├── PasswordGenerator.js
-  │   │   └── PasswordOptions.js
+  │   │   ├── sendPrivately.js
+  │   │ 
   │   ├── App.js
   │   ├── App.css
   │   └── index.js

@@ -24,7 +24,7 @@ The **Strong Password Generator** is a React-based web application that allows u
 Clone this repository to your local machine using:
 
 ```bash
-git clone https://github.com/yourusername/strong-password-generator.git
+git clone https://github.com/LungheSam/strong-password-generator.git
 ```
 
 ### 2. Install dependencies
@@ -81,12 +81,6 @@ The email and SMS features are integrated using **EmailJS** and **Twilio API**. 
 
 ### `App.js`
 This is the main component that handles the rendering of the password generator form, password options, and displays the generated password.
-
-### `PasswordGenerator.js`
-This component contains the logic for generating passwords based on user input. It handles password length, character set options, and updates the state accordingly.
-
-### `PasswordOptions.js`
-This component allows users to customize their password generation criteria by selecting checkboxes for uppercase letters, lowercase letters, numbers, and special characters. It also includes a slider to adjust the password length.
 
 ### `App.css`
 Contains the styling for the entire application, including layout, color scheme, and responsiveness.

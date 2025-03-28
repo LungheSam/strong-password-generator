@@ -119,7 +119,21 @@ input[type='range'] {
 .private-options label{
   margin: 10px;
 }
-
+.private-options-send-via{
+  text-align: center;
+  width: 100%;
+}
+.private-options-send-via label{
+  display: block;
+  font-weight: bold;
+}
+.private-options-send-via input{
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
 @media (max-width: 480px) {
   .app-container{
     scale: 0.9;

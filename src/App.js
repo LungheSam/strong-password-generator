@@ -168,7 +168,7 @@ export default function App() {
                   type="text"
                   value={contactInfo}
                   onChange={(e) => setContactInfo(e.target.value)}
-                  placeholder={`Enter ${sendVia === 'email' ? 'email' : 'phone number (+2567XXXXXXXX)'}`}
+                  placeholder={`Enter ${sendVia === 'email' ? 'Email ...' : 'Phone number (+2567XXXXXXXX)'}`}
                 />
               </div>
             )}
